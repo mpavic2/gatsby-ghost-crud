@@ -1,19 +1,41 @@
-1.  **Create a Gatsby site.**
+1. **Pripremanje okruženja**
+
+   ```shell
+    # instalacija Ghost CMS-a lokalno
+    ghost install local
+    ```
+
+    ```shell
+    # pokretanje Ghost CMS-a
+    ghost start
+    ```
+    
+
+    ```shell
+    # instalacija Gatsby-ja lokalno
+    npm install -g gatsby-cli
+    ```
+
+1.  **Kreiranje Gatsby mrežnog mjesta.**
 
     
 
     ```shell
-    # create a new Gatsby site using the default starter
+    
     gatsby new gatsby-ghost-crud 
     ```
 
-1.  **Start developing.**
+1.  **Razvoj.**
 
-    Navigate into your new site’s directory and start it up.
+    
 
     ```shell
     cd gatsby-ghost-crud/
     gatsby develop
+    ```
+    ```shell
+    # dodavanje dodatka koji uključuje Ghost CMS
+    npm install gatsby-source-ghost
     ```
 
 1.  **Open the source code and start editing!**
